@@ -1,0 +1,30 @@
+.links{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28vh;
+    background-color: hsl(255, 11%, 22%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.links h1{
+    color: white;
+}
+.links button{
+    background-color: aqua;
+    border-radius: 14px;
+    border: none;
+    height: 5vh;
+    width: 8vw;
+    font-weight: 700;
+}
+.links button:hover{
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:950px){
+    .links button{
+        width: 35vw;
+    }
+}

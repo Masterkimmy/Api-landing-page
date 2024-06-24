@@ -1,0 +1,110 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+.mobile-nav, .none{
+    display: none;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+.fit:hover{
+    color: hsl(255, 11%, 22%) ;
+}
+.out, .in{
+    display: none;
+    /* margin-left: 40%; */
+}
+.sources:hover{
+    color: hsl(255, 11%, 22%) ;
+} 
+.top{
+    display: flex;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+.up{
+    background-color: aqua;
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    border-radius: 14px;
+    border: none;
+}
+.short{
+    height: 25px;
+}
+.price:hover{
+    color: hsl(255, 11%, 22%);
+}
+.up:hover{
+    color: white;
+}
+@media screen and (max-width:950px){
+    .logo,.login{
+        display: none;
+    }
+    .short{
+        padding-right: 50%;
+    }
+    .out{
+        display: block;
+    }
+    .react-icon{
+        padding-left: 12rem;
+    }
+
+    .in{
+        display: none;
+        background-color: green;
+    }
+    .mobile-nav{
+        display: flex;
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-area: 10px;
+        height: 50vh;
+        background-color: aqua;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .btn-1{
+        border: none;
+        background: transparent;
+        color: white;
+    }
+
+    .btn-2{
+        background-color:white;
+        padding: 7px 28px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: aqua;
+
+    }
+    button{
+        cursor: pointer;
+    }
+
+    .none{
+       display: none;
+    }
+}

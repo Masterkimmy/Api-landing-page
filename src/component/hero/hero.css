@@ -1,0 +1,63 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 20px;
+}
+.one{
+    height: 45vh;
+    padding-left: 20px;
+}
+.build{
+    width: 25vw;
+    color:  hsl(0, 0%, 75%);
+}
+.more{
+    color: hsl(255, 11%, 22%) ;
+    width: 25vw;
+    font-size: 45px;
+}
+.get{
+    border: none;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    border-radius: 14px;
+    height: 7vh;
+    font-weight: 600;
+}
+.get:hover{
+    color: white;
+}
+@media screen and (max-width:950px){
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .one{
+        height: 25vh;
+    }
+    .more{
+        width: 87vw;
+        text-align: center;
+    }
+    .build{
+        width: 60vw;
+        text-align: center;
+    }
+    .get{
+        width: 40vw;
+    }
+    .noted{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mami{
+        padding-left: 25%;
+        margin-bottom: 20%;
+    }
+}

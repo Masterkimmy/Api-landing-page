@@ -1,0 +1,258 @@
+.sec{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+    margin-top: 6%;
+}
+.input{
+    display: flex;
+    gap: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    border-radius: 8px;
+    background-color: hsl(255, 11%, 22%);
+    position: relative;
+    bottom: 45px;
+}
+.type{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 10px 10px;
+    padding-left: 15px;
+}
+.btn{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.btn:hover{
+    color: white;
+}
+.front{
+    display: flex;
+    align-items: center;
+    gap: 100PX;
+    background-color: white;
+    border: solid rgb(239, 233, 233) 1px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 5vh;
+    gap: 29%;
+}
+.top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.copy{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 5vh;
+    border: none;
+    border-radius: 7px;
+    font-weight: 800;
+}
+.copy:hover{
+    color: white;
+    background-color:hsl(255, 11%, 22%) ;
+}
+.frontmentor{
+    display: flex;
+    align-items: center;
+    gap: 320PX;
+    background-color: white;
+    border: solid rgb(239, 233, 233) 1px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 5vh;
+}
+.frontend{
+    display: flex;
+    align-items: center;
+    gap: 250pX;
+    background-color: white;
+    border: solid rgb(239, 233, 233) 1px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 5vh;
+}.boot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 30px;
+}
+.advanced{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advanced h1{
+    color: hsl(255, 11%, 22%);
+    font-size: 40px;
+}
+.advanced p{
+    width: 25vw;
+    color:  hsl(0, 2%, 55%);
+    text-align: center;
+}
+.gun{
+    height: 5vh; 
+}
+.only{
+    background-color: hsl(256, 58%, 13%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 10vh;
+    border-radius: 70%;
+    position: relative;
+    top: 35px; 
+    margin-left: 40px; 
+
+}
+.boost{
+    background-color: white;
+    width: 22vw;
+    height: 40vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.boost p{
+    width: 18vw;
+    color:  hsl(0, 2%, 55%);
+}
+.each{
+    display: flex;
+    flex-direction: column; 
+}
+.grand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.records{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 15%;
+}
+.gain{
+    position: relative;
+    top: 40px;
+}
+.fully{
+    position: relative;
+    top: 80px;
+}
+.span{
+    color: aqua;
+}
+@media screen and (max-width:950px){
+    .input{
+        width: 80vw;
+        flex-direction: column;
+        padding: 10px;
+        height: 18vh;
+    }
+    .type{
+        width: 70vw;
+    }
+    .btn{
+        width: 50%;
+    }
+    .frontmentor,.frontend{
+        flex-direction: column;
+        gap: 5px;
+        height: 25vh;
+        align-items: flex-start;
+        border-radius: 10px;
+        
+    }
+    .gain,.fully{
+        top: 0px;
+    }
+    .front{
+        flex-direction: column;
+        gap: 5px;
+        height: 25vh;
+        align-items: flex-start;
+        border-radius: 10px;
+    }
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .copy{
+        width: 80vw ;
+        height: 6vh;
+    }
+    .sec{
+        width: 100vw;
+    }
+    .boot{
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+    }
+    .advanced h1{
+        font-size: 30px;
+    }
+    .advanced p{
+       width: 60vw;
+    }
+    .records{
+        flex-direction: column;
+    }
+    .boost{
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+
+    }
+    .boost:hover{
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    }
+    .boost p{
+        width: 58vw;
+        text-align: center;
+    }
+    .only{
+        margin-left: 35%;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+    }
+    .records{
+        gap: 0px;
+    }
+    .boot{
+        align-items: center;
+        justify-content: center;
+    }
+}
